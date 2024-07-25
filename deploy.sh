@@ -14,4 +14,4 @@ if [ $(docker ps -q -f name=$CONTAINER_NAME) ]; then
 fi
 
 # Run the Docker container
-docker run -d --gpus all -p 9000:9000 --name $CONTAINER_NAME fastapi-whisperx-app
+docker run -d --gpus all -p 12012:9000 --name $CONTAINER_NAME fastapi-whisperx-app
